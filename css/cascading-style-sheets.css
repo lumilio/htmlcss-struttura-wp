@@ -39,8 +39,11 @@ footer{
 }
 
 .hero-img{
-    height: 500px;
-    background-color: blue;
+    height: 600px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .box-page{
