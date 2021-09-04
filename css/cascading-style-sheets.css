@@ -11,7 +11,9 @@
 }
 
 
+
 /* struttura a blocchi */
+
 
 
 body{
@@ -44,6 +46,7 @@ footer{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    position: relative;
 }
 
 .box-page{
@@ -75,7 +78,9 @@ footer{
 }
 
 
+
 /* riempimento blocchi */
+
 
 
 #logo{
@@ -83,12 +88,27 @@ footer{
     margin-bottom: 1.5rem;
 }
 
-nav{
+header > nav{
     font-size: larger;
 }
 
-a{
+header > nav > a{
     text-decoration: none;
     color: purple;
 }
 
+.hero-txt{
+    width: 100%;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+}
+
+.hero-txt > h1 {
+    width: 750px;    
+}
+
+.hero-txt > nav {
+    width: 700px;  
+    font-size: medium;  
+}
