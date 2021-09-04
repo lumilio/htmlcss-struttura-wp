@@ -10,10 +10,15 @@
     display: table;
 }
 
+
+/* struttura a blocchi */
+
+
 body{
     padding: 1rem;
     margin: auto;
     width: 1400px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* .debug > */ .content {
@@ -64,5 +69,23 @@ footer{
     float: left;
     padding: 1rem;
     height: 100%;
+}
+
+
+/* riempimento blocchi */
+
+
+#logo{
+    height: 85px;
+    margin-bottom: 1.5rem;
+}
+
+nav{
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
 }
 
