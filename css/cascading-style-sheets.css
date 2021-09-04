@@ -56,7 +56,8 @@ footer{
 }
 
 .sub-title{
-    height: 100px;
+
+    width: 100%;
     background-color: yellow;
     margin-bottom: 1rem;
 }
@@ -136,6 +137,7 @@ header > nav > a{
 
 
 /* secondo titolo */
+
 
 
 .sub-title > h1{
