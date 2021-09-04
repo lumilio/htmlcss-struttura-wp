@@ -20,7 +20,9 @@ body{
     padding: 1rem;
     margin: auto;
     width: 1400px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* .debug > */ .content {
@@ -82,6 +84,8 @@ footer{
 /* riempimento blocchi */
 
 
+/* header */
+
 
 #logo{
     height: 85px;
@@ -97,11 +101,27 @@ header > nav > a{
     color: purple;
 }
 
+
+/* hero */
+
+
+.layer{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
 .hero-txt{
     width: 100%;
     position: absolute;
     bottom: 90px;
     left: 50px;
+    color: white;
 }
 
 .hero-txt > h1 {
@@ -109,6 +129,17 @@ header > nav > a{
 }
 
 .hero-txt > nav {
-    width: 700px;  
-    font-size: medium;  
+    width: 700px;
+    font-size: large;  
+ 
 }
+
+
+/* secondo titolo */
+
+
+.sub-title > h1{
+    font-family: 'Open Sans', sans-serif
+}
+
+
